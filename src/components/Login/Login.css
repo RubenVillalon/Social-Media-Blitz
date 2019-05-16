@@ -1,0 +1,10 @@
+.main-container-login {
+  background-image: linear-gradient(
+    to top,   rgba(142, 134, 255, 0.411), white
+  );
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}

@@ -1,0 +1,13 @@
+.signup-form {
+	background-image: linear-gradient(to top, rgba(229, 192, 247, 0.514), white);
+    animation: Gradient 15s ease infinite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.signup-form div {
+    margin: 20px 0 20px 0;
+}

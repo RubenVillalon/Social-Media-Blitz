@@ -1,0 +1,11 @@
+.feed-main-container {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(191, 186, 252, 0.411),
+    white
+  );
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

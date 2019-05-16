@@ -1,0 +1,48 @@
+.myinfo-main-container {
+  background-image: url("../../assets/building_night.jpg");
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.myinfo-container {
+  margin-top: 30px;
+  height: 600px;
+  width: 80%;
+  background-image: linear-gradient(
+    to right,
+    rgba(197, 104, 255, 0.5),
+    rgba(110, 145, 246, 0.01)
+  );
+  display: flex;
+}
+
+.myinfo-img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: none;
+  margin: 16px;
+}
+
+.myinfo-info-container {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-variant-caps: small-caps;
+    font-stretch: expanded;
+    margin: 0 0 0 20px;
+}
+
+.myinfo-username {
+    font-weight: bold;
+    font-size: 30px;
+}
+.myinfo-created {
+    font-size: 13px;
+}

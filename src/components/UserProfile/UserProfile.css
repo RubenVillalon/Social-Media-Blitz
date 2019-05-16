@@ -1,0 +1,26 @@
+.userProfile-container {
+  border: grey solid 0.3px;
+  height: 220px;
+  width: 160px;
+  margin: 10px;
+  padding: 0 0 0 0;
+  box-shadow: -0.05em 0 0.9em rgba(173, 35, 253, 0.699);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: -webkit-radial-gradient(rgba(70, 3, 70, 0.349), rgba(255, 255, 255, 0.007))
+}
+
+.userprofile-img {
+  border-radius: 100px;
+  height: 80px;
+  width: 80px;
+  box-shadow: -0.05em 0 0.9em rgba(95, 3, 95, 0.699);
+}
+
+.userProfile-container p {
+    font-family: 'Indie Flower';
+    font-weight: bold;
+    font-size: 15px
+}
