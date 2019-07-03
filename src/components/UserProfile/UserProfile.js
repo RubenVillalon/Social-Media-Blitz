@@ -10,6 +10,7 @@ class UserProfile extends Component {
 	};
 
 	render() {
+    console.log(this.props.user)
 		return this.props.user.avatar ? (
 			<div onClick={this.userDetailsHandler} className="profile-individual-container">
 				<div className="userProfile-container">
@@ -17,6 +18,7 @@ class UserProfile extends Component {
 						<img className="userprofile-img" src={this.props.user.avatar} alt="users" />
 					</div>
 					<p>{this.props.user.username}</p>
+          <p>{this.props.user.email}</p>
 				</div>
 			</div>
 		) : null;

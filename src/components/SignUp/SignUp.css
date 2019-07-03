@@ -1,5 +1,5 @@
 .signup-form {
-	background-image: linear-gradient(to top, rgba(229, 192, 247, 0.514), white);
+	background-image: linear-gradient(to top, rgba(110, 74, 241, 0.623), white);
     animation: Gradient 15s ease infinite;
     display: flex;
     flex-direction: column;
