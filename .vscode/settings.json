@@ -1,0 +1,7 @@
+{
+    "editor.fontFamily": "Dank mono",
+    "debug.console.fontFamily": "Dank mono",
+    "terminal.integrated.fontFamily": "Dank mono",
+    "terminal.integrated.fontWeightBold": "normal",
+    "markdown.preview.fontFamily": "Dank mono"
+}
