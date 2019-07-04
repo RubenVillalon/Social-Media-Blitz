@@ -15,3 +15,4 @@ To run the project:
 - clone the project
 - npm i
 - npm start
+
